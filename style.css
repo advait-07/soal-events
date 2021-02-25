@@ -1,0 +1,113 @@
+body{
+    background-color: white;
+    text-align: center;
+}
+
+header{
+    text-align: left;
+}
+
+h1{
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.eventname{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: #40B25CE6;
+}
+
+.eventdeatil{
+
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+}
+
+
+/* external css: flickity.css */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body { font-family: sans-serif; }
+  
+  .gallery {
+    background: #EEE;
+  }
+  
+  .gallery-cell {
+    width: 66%;
+    height: 350px !important;
+    margin-right: 10px;
+  }
+ 
+  .button{
+    background-color: rgba(64,178,92,.9);
+    color: #fff;
+    padding: 20px 42px;
+    font-size: 16px;
+    text-decoration: none;
+    
+  }
+
+
+  .newsletter-wrapper{
+
+    background-size: cover;
+    height: 25vh;
+    width: 100%;
+    
+    
+    
+
+  }
+  .newsletter-box{
+
+    background: white;
+    
+    border-radius: 50px 0 0 50px;
+
+  }
+  .newsletter-box p {
+
+    font-size: 20px;
+    margin: 0 0 20px;
+
+  }
+  .newsletter-box input[type="text"]{
+      width: calc(100%-120px);
+      height: 50px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      color:black;
+      padding: 10px 15px;
+      line-height: 30px;
+      border: 2px solid;
+      border-radius: 8px 0 0 8px;
+  }
+
+  .newsletter-box input[type="text"]:focus{
+      border-color: blue;
+  }
+  .newsletter-box input[type="submit"]{
+
+    width: 120px;
+      height: 50px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      color:black;
+      padding: 10px 15px;
+      line-height: 30px;
+      border: 2px solid;
+      border-radius: 0 8px 8px 0;
+      background: #40B25CE6
+
+  }
